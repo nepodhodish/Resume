@@ -11,4 +11,4 @@ A place for my relevant projects and important awards
 - This summer, after graduating I worked on trading bots based on api of two cryptoexchanges.
 - Nowadays I have remembered how to do pretty web pages in order to make my pdf resume.
 
-### Enjoy watching
+### Enjoy watching!
