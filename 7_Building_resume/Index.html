@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>resume</title>
+        <style>
+            @page {
+                size: A4;
+                margin: 0px;
+            }
+            @font-face {
+                font-family: 'poppins';
+                src: url('help/Poppins-Medium.ttf');
+            }
+            @font-face {
+                font-family: 'poppins_light';
+                src: url('help/Poppins-Light.ttf');
+            }
+            @font-face {
+                font-family: 'garet';
+                src: url('help/Garet-Book.ttf');
+            }
+            .back_l {
+                position: relative;
+                z-index: 1;
+                width: 360px;
+                height: 1390px;
+                background-color: #2a2d37;
+            }
+            .icon {
+                position: absolute;
+                z-index: 3;
+                top: 110px;
+                left: 35px;
+                width: 280px;
+                height: 280px;
+                background-color: #ffffff;
+            }
+            .img_icon {
+                margin: 15px;
+            }
+            .name {
+                position: absolute;
+                z-index: 2;
+                top: 145px;
+                left: 310px;
+                width: 630px;
+                height: 210px;
+                background-color: #f4d643;
+            }
+            .name_1 {
+                margin-top: 45px;
+                margin-left: 100px;
+                height: 70px;
+                font-family: 'poppins';
+                font-size: 55px;
+                letter-spacing: 2px;
+                color: #2a2d37;
+            }
+            .name_2 {
+                margin-left: 100px;
+                font-family: 'garet';
+                font-size: 30px;
+                letter-spacing: 2px;
+                color: #2a2d37;
+            }
+            .contacts {
+                position: absolute;
+                top: 440px;
+                left: 40px;
+                width: 280px;
+                height: 100px;
+                color: #fbfbfa;
+                font-family: 'poppins_light';
+                font-size: 20px;
+            }
+            .img_mail {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 40px;
+                height: 40px;
+            }
+            .img_tg {
+                position: absolute;
+                top: 60px;
+                left: 0px;
+                width: 40px;
+                height: 40px;
+            }
+            .mail {
+                position: absolute;
+                top: 0px;
+                left: 40px;
+                width: 220px;
+                height: 30px;
+                margin: 5px 10px;
+            }
+            .tg {
+                position: absolute;
+                top: 60px;
+                left: 40px;
+                width: 250px;
+                height: 30px;
+                margin: 5px 10px;
+            }
+            .education {
+                position: absolute;
+                top: 590px;
+                left: 40px;
+                width: 320px;
+                height: 200px;
+            }
+            .skills {
+                position: absolute;
+                top: 840px;
+                left: 40px;
+                width: 320px;
+                height: 500px;
+            }
+            .school_1 {
+                color: #fbfbfa;
+                font-size: 22px;
+                font-family: 'poppins';
+                margin: 10px 0px 0px;
+            }
+            .school_2 {
+                color: #fbfbfa;
+                font-size: 20px;
+                font-family: 'garet';
+                margin: 5px 0px 0px;
+            }
+            .date_l {
+                color: #fbfbfa;
+                font-size: 17px;
+                font-family: 'poppins_light';
+                margin: 3px 0px 0px;
+            }
+            .head_l {
+                color: #fbfbfa;
+                font-size: 34px;
+                font-family: 'poppins';
+            }
+            .mid_text_l {
+                color: #fbfbfa;
+                font-size: 20px;
+                font-family: 'garet';
+                margin: 10px 0px 0px;
+            }
+            .about_me {
+                position: absolute;
+                top: 380px;
+                left: 410px;
+                width: 520px;
+                height: 200px;
+            }
+            .experience {
+                position: absolute;
+                top: 630px;
+                left: 410px;
+                width: 520px;
+                height: 500px;
+            }
+            .head_r {
+                color: #2c2f37;
+                font-size: 32px;
+                font-family: 'poppins';
+            }
+            .line {
+                position: absolute;
+                top: 90px;
+                left: 10px;
+                width: 0px;
+                height: 510px;
+                border: #2c2f37 solid 1px;
+            }
+            .circle {
+                position: absolute;
+                left: 4px;
+                width: 10px;
+                height: 10px;
+                border-radius: 10px;
+                border: #2c2f37 solid 2px;
+                background-color: #ffffff;
+            }
+            .c_1 {
+                top: 85px;
+            }
+            .c_2 {
+                top: 260px;
+            }
+            .c_3 {
+                top: 430px;
+            }
+            .cases {
+                position: absolute;
+                top: 80px;
+                left: 30px;
+                width: 490px;
+                height: 450px;
+            }
+            .time {
+                color: #afb0b0;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: 'garet';
+            }
+            .event {
+                color: #2c2f37;
+                font-size: 25px;
+                font-family: 'poppins';
+            }
+            .description {
+                line-height: 20px;
+                color: #a0a0a0;
+                font-size: 17px;
+                font-weight: bold;
+                font-family: 'garet';
+                margin: 0px 0px 20px;
+            }
+        </style>
+    </head>
+    <body >
+        <div class="back_l">
+
+            <div class="name">
+                <div class="name_1">ANTON EROFEEV</div>
+                <div class="name_2">Applicant</div>
+            </div>
+
+            <div class="icon">
+                <img src="help/icon.jpg" class="img_icon">
+            </div>
+
+            <div class="contacts">
+                <img src="help/mail.png" class="img_mail">
+                <div class="mail">anep1155@gmail.com</div>
+                <img src="help/tg.png" class="img_tg">
+                <div class="tg">@Ne_pOdHoDish</div>
+            </div>
+
+            <div class="education">
+                <div class="head_l">Education</div>
+                <hr width="320px" color="#f4d643">
+                <div class="school_1" s>High School - <a href="https://lyceum.urfu.ru/" target="_blank" class="school_1">SESC URFU</a></div>
+                <div class="school_2"><b>Physical and Maths class</b></div>
+                <div class="date_l">2020 - 2023</div>
+            </div>
+
+            <div class="skills">
+                <div class="head_l">Skills</div>
+                <hr width="320px" color="#f4d643">
+                <div class="mid_text_l">Python</div>
+                <div class="mid_text_l">Machine & Deep Learning</div>
+                <div class="mid_text_l">Maths (Algebra & Geometry)</div>
+                <div class="mid_text_l">Physics</div>
+                <div class="mid_text_l">Diverse Api</div>
+                <div class="mid_text_l">GitHub</div>
+                <div class="mid_text_l">Docker</div>
+                <div class="mid_text_l">HTML & CSS</div>
+                <div class="mid_text_l">Javascript</div>
+                <div class="mid_text_l">C++</div>
+            </div>
+
+            <div class="about_me">
+                <div class="head_r"><b>About Me</b></div>
+                <hr width="520px" color="#f4d643" size="3px">
+                <div class="description">I am a graduate of a physics and mathematics class at one of the best school in Russia (top 10).
+                    Often participate in verious team and single STEM competitions. 
+                    Diligent and responsible in things that truly interest me. 
+                    Also fond of board games, crypto, role games (dnd and live).
+                    More information about achievements on my <a class='description' href="https://github.com/nepodhodish/Resume" target="_blank">GitHub page</a></div>
+            </div>
+
+            <div class="experience">
+                <div class="head_r"><b>Experience</b></div>
+                <hr width="520px" color="#f4d643" size="3px">
+                <div class="line"></div>
+                <div class="circle c_1"></div>
+                <div class="circle c_2"></div>
+                <div class="circle c_3"></div>
+                <div class="cases">
+                    <div class="time">autumn 2022 - spring 2023</div>
+                    <div class="event"><a class="event" href="https://github.com/nepodhodish/Resume/tree/main/6_NTO_in_AI" target="_blank">NTO in AI</a></div>
+                    <div class="description">I am a finalist of <a class="description" href="https://ntcontest.ru/about/press-releases/obyavleny-pobediteli-natsionalnoy-tekhnologicheskoy-olimpiady-po-profilyu-iskusstvennyy-intellekt/" target="_blank">National Technological Olympiade in Artificial Intelligence</a>
+                                            Amazing team competition with hard ending task - video questioning and answering.</div>
+                    <div class="time">autumn 2021 - spring 2022</div>
+                    <div class="event">Artificial Intelligence Courses</div>
+                    <div class="description">I passed <a class="description" href="https://algocode.ru/mlwinter2022/" target="_blank">Machine</a> and <a class="description" href="https://algocode.ru/dlwinter2022/" target="_blank">Deep</a> Learning courses during 10th form.
+                                            Saturated and complicated lessons that introduced me <a class="description" href="https://github.com/nepodhodish/Resume/tree/main/3_ML_course" target="_blank">base</a> and <a class="description" href="https://github.com/nepodhodish/Resume/tree/main/4_DL_course" target="_blank">in-depth</a> knowledge of artificial intelligence.</div>
+                    <div class="time">autumn 2020 - spring 2023</div>
+                    <div class="event"><a class="event" href="https://github.com/nepodhodish/Resume/tree/main/5_School_olympiads" target="_blank">Russian Olympiads in STEM disciplines</a></div>
+                    <div class="description">Due to qualitative educational material, brilliant professors from my High School and my persistence I am a runner-up in several regional and national olympiads.</div>
+                </div>
+            </div>
+
+            
+
+        </div>
+        
+
+    </body>
+</html>
